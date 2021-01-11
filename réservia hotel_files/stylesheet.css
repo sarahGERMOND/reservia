@@ -1,0 +1,193 @@
+body{
+
+    
+}
+img{
+    max-width: 100%;
+}
+header {
+
+    border: solid white 1px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+
+}
+a:hover{
+        color:blue;
+        text-decoration:none;
+        background-color:black;}
+.menu {
+    
+    display: flex;
+    justify-content: space-around;
+    width:40%;
+}
+.menu a{
+    display:inline-block;
+    padding-top: 10px;
+    border-top: 1px solid white;
+}
+
+.menu a:hover{
+   display: inline-block;
+    color:blue;
+    border-top: 1px solid blue;
+background:none}
+.filtre{
+  
+    color: black;
+    border: 1px solid grey;
+    border-radius: 20px;
+    display: inline;
+    padding: 15px 15px;
+    margin: 10px;
+    font-size: 15px;
+    display: inline-flex;
+    align-items: center;
+
+
+}.filtre i{color: blue;}
+.filtre img{
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+.recherche {
+
+    margin:20px;
+    display:flex;
+   align-items:center
+}
+
+.filtre.btn {
+    background-color: blue;
+    color: #ccc;
+}
+.logo{
+    color: black;
+    font-size: 0.2 em;
+    display: inline;
+    border: 1px;
+    margin: 10px;
+    padding: left 1px; 
+}
+.logo .logements{
+    display:flex ;
+    align-items: center;
+}
+
+
+#hebergementParent{
+border:solid 1px rgb(243, 239, 239);
+display:flex;
+flex-direction:row;
+font-size: 10px;
+}
+.sectionhebergement{
+    display: flex;
+    flex-flow: row wrap;
+}
+.hebergement{
+    width: 70%;
+}
+
+.hebergement, .lespluspopulaires{
+    background-color: #ccc;
+    padding: 25px;
+    border-radius:20px;
+    display:flex;
+    flex-direction:column;
+    margin: 15px;
+        
+}
+.hebergement h2{
+     margin: 0 2%;  
+        
+    
+  
+    
+   
+   
+}
+.photo {
+    border:solid 1px rgb(203, 203, 207);
+    display:flex;
+flex-wrap:wrap;
+}
+.thumb {
+    flex:0 0 29%;
+    margin: 2% 2%;
+    background-color:white;
+    border-radius:10px;
+
+}
+.hebergement .thumb > img{
+    width: 100%;
+}
+.deuxiemelignehebergement{
+    display: flex;
+}
+.lespluspopulaires{
+    width: 15%;
+    padding:15px;
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    
+    background-color: #ccc;
+    border-radius:20px;
+}
+.vignette{
+    border-radius:8px;
+    display:flex;
+    flex-direction:row;
+    background-color: #fff;
+    padding:3px;
+    margin:10px;
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.19);
+}
+.activiteMarseille{
+    border: solid 1px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.activites{
+    flex: 0 0 20%;
+    overflow: hidden;
+    margin: 2% 2%;
+    background-color: white;
+    border-radius: 10px;
+
+}
+.activites img{
+    height: 100%;
+    max-width: none;
+
+}
+.activites + .activites img{
+    height: auto;
+    max-width: 100%;
+}
+.activites + .activites + .activites img{
+    height:100%;
+    max-width: none;
+}
+.activites + .activites + .activites + .activites img{
+    height: auto;
+    max-width: 100%;
+}
+.activite {
+    border:solid 1px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center
+}
+.footer{
+    background-color: #efefef;
+    display: flex;
+    justify-content: space-between;
+}
